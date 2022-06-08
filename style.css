@@ -12,7 +12,7 @@
 }
 
 .header {
-    background-image: linear-gradient(-45deg , rgb(27,0,180) ,rgb(38, 0, 255), white, rgb(38, 0, 255) );
+    background-image: linear-gradient(-60deg , rgb(32, 0, 211) ,rgb(80, 49, 255), rgb(65, 125, 255), rgb(38, 0, 255) ,rgb(23, 0, 151));
     text-align: center;
     padding: 50px;
 }
