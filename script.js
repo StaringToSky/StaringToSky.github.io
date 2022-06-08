@@ -1,7 +1,10 @@
-function createEle()
+function createArticle()
 {
-    var _name = document.getElementById("input-title").value;
-    var textnode = document.createTextNode(_name);
-    var node = document.getElementById("article");
-    node.appendChild(textnode);
+    var _input = document.getElementById("input-title").value
+    var _title = document.createElement("div")
+    _title.innerHTML = _input;
+    _title.className = "article-title"
+    _title.setAttribute("href","style.css")
+    
+    document.getElementById("article").appendChild(_title)
 }
