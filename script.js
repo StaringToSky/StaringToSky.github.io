@@ -1,5 +1,6 @@
 function createArticle()
 {
+    // 产生新的文章链接 （未完成）
     var _input = document.getElementById("input-title").value
     var _title = document.createElement("div")
     _title.innerHTML = _input;
