@@ -8,8 +8,11 @@ function createArticle()
     _title.setAttribute("href","style.css")
     
     //document.getElementById("article").appendChild(_title)
+    var title = document.getElementById("input-title").value;
+    
     var _title = document.createElement("a")
-    _title.innerHTML = "你就是家鸽吧！";
-    // _title.href = "";
+    _title.innerHTML = title;
+    _title.href = "";
     document.getElementById("article").appendChild(_title)
+    _title.setAttribute("style","style.css")
 }
