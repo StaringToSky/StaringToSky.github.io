@@ -5,10 +5,14 @@ function createArticle()
     //var _title = document.createElement("div")
     //_title.innerHTML = _input;
     //_title.className = "article-title"
-    //_title.setAttribute("href","style.css")
+    _title.setAttribute("href","style.css")
     
     //document.getElementById("article").appendChild(_title)
-    var _title = document.createElement("div")
-    _title.innerHTML = "你就是家鸽吧！";
+    var title = document.getElementById("input-title").value;
+    
+    var _title = document.createElement("a")
+    _title.innerHTML = title;
+    _title.href = "";
     document.getElementById("article").appendChild(_title)
+    _title.setAttribute("style","style.css")
 }
