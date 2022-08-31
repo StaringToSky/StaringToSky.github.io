@@ -36,7 +36,15 @@ body {
 
 .article-title {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
+    margin-top: 0.5%;
+    margin-left: 10%;
+}
+
+.article-time {
+    margin-top: 0.5%;
+    margin-left: 10%;
+    font-size: 14px;
 }
 
 #chenxu {
@@ -50,7 +58,7 @@ body {
     color: darkblue;
     text-shadow: 15px 15px 2px white;
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .line {
@@ -78,3 +86,8 @@ body {
 #RocketVideo {
     margin-left: 50%;
 }
+
+#LK-1 {
+    margin-top: 1%;
+}
+
