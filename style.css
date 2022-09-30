@@ -1,8 +1,9 @@
 #title {
     color: #ffffff;
-    font-weight: 300;
-    font-size: 50px;
+    font-weight: 5%;
+    font-size: 300%;
     width: 600px;
+    text-decoration: none;
 }
 
 #intro {
@@ -36,7 +37,7 @@ body {
 
 .article-title {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 150%;
     margin-top: 0.5%;
     margin-left: 10%;
 }
@@ -47,22 +48,17 @@ body {
     font-size: 14px;
 }
 
-#chenxu {
-    width: 500px;
-    height: 600px;
-}
 
 #main-title {
-    font-size: 30px;
+    font-size: 175%;
     font-weight: 800;
     color: darkblue;
-    text-shadow: 15px 15px 2px white;
     margin-left: 5%;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 .line {
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: 5%;
     background-color: darkblue;
     width: 90%;
@@ -79,12 +75,13 @@ body {
     position: absolute;
 }
 
-#index {
+.index {
+    margin-top: 1%;
     margin-left: 10%;
 }
 
-#RocketVideo {
-    margin-left: 50%;
+.Video {
+    margin-left: 20%;
 }
 
 #LK-1 {
